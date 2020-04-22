@@ -4,6 +4,7 @@ project(CFS_MD C)
 include_directories(fsw/mission_inc)
 include_directories(fsw/platform_inc)
 include_directories(${cfs_lib_MISSION_DIR}/fsw/public_inc)
+include_directories(${sample_lib_MISSION_DIR}/fsw/public_inc)
 
 aux_source_directory(fsw/src APP_SRC_FILES)
 
